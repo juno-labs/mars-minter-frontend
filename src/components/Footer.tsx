@@ -7,7 +7,9 @@ const PoweredBy = () => {
       <div className="text-black flex justify-center items-center flex-col text-xs ml-2">
         <div className="flex justify-center items-center">
           <span className="mr-1">powered by</span>
-          <img src={ImageJunoLabsLogo} alt="" className="h-5" />
+          <a href="https://twitter.com/junolabsnear">
+            <img src={ImageJunoLabsLogo} alt="" className="h-5" />
+          </a>
         </div>
       </div>
     </>
